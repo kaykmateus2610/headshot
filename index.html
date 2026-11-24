@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Landing page responsiva para headshots profissionais com IA.">
+  <title>Headshot Studio — Retratos profissionais com IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="Headshot Studio início"><span class="brand-mark">✦</span> Headshot<span>Studio</span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#gallery">Galeria</a><a href="#how">Como funciona</a><a href="#features">Recursos</a><a href="#pricing">Preços</a><a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions"><a class="login" href="#pricing">Entrar</a><a class="nav-cta" href="#pricing">Criar headshots <span>↗</span></a></div>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" aria-hidden="true">
+    <nav><a href="#gallery">Galeria</a><a href="#how">Como funciona</a><a href="#features">Recursos</a><a href="#pricing">Preços</a><a href="#faq">FAQ</a><a class="mobile-cta" href="#pricing">Criar meus headshots ↗</a></nav>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="spark">✦</span> HEADSHOTS PROFISSIONAIS COM IA</div>
+        <h1>Professional business headshots,<br><em>without a physical photo shoot.</em></h1>
+        <p>Transforme suas selfies em retratos profissionais. Escolha estilos, cenários e looks — sem estúdio, sem agendamento.</p>
+        <a class="primary-btn" href="#pricing">Criar meus headshots <span>→</span></a>
+        <div class="social-proof"><div class="avatar-stack"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&q=80"></div><span><b>4.8/5</b> · milhares de profissionais satisfeitos</span></div>
+      </div>
+      <div class="hero-collage">
+        <div class="portrait p1"><img src="https://images.unsplash.com/photo-1580489875771-3f4c2c3f2a31?auto=format&fit=crop&w=600&q=85" alt="Retrato profissional feminino"></div>
+        <div class="portrait p2"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=85" alt="Retrato profissional masculino"></div>
+        <div class="portrait p3"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218dfauto=format&fit=crop&w=600&q=85" alt="Pessoa em ambiente profissional"></div>
+        <div class="portrait p4"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=85" alt="Equipe profissional"></div>
+        <div class="portrait p5"><img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=85" alt="Retrato de profissional"></div>
+        <div class="portrait p6"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=85" alt="Executivo"></div>
+        <div class="portrait p7"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=85" alt="Retrato feminino"></div>
+      </div>
+      <div class="floating-note note-one"><span class="note-icon">✦</span><div><b>Pronto em minutos</b><small>Sem precisar sair de casa</small></div></div>
+      <div class="floating-note note-two"><span class="check">✓</span><div><b>Qualidade profissional</b><small>Alta resolução, vários estilos</small></div></div>
+    </section>
+
+    <section class="stats-band">
+      <div class="stats-inner"><div><strong>14.2M+</strong><span>headshots criados</span></div><div><strong>680K+</strong><span>clientes felizes</span></div><div class="trust"><span>★★★★★</span><small>Mais de 10 mil avaliações</small></div></div>
+    </section>
+
+    <section class="gallery-section section" id="gallery">
+      <div class="section-heading reveal"><div class="eyebrow">INSPIRAÇÃO</div><h2>Seu próximo retrato profissional<br>pode ser assim.</h2><p>Uma variedade de estilos e cenários para você encontrar a imagem perfeita.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=85"><span>Corporate</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=85"><span>Studio</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=85"><span>Executive</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=85"><span>Team</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=85"><span>Business</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=600&q=85"><span>Creative</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=600&q=85"><span>Modern</span></figure>
+        <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=85"><span>Natural</span></figure>
+      </div>
+      <div class="gallery-caption"><span class="mini-avatars">● ● ● ●</span> Resultados criados por nossa comunidade</div>
+    </section>
+
+    <section class="how-section section" id="how">
+      <div class="section-heading reveal"><div class="eyebrow">SIMPLES ASSIM</div><h2>Como suas selfies se tornam<br>headshots profissionais</h2><p>Uma experiência guiada, do upload ao resultado, sem complicações.</p></div>
+      <div class="steps">
+        <article class="step-card reveal"><div class="step-number">01</div><div class="step-visual upload-visual"><div class="upload-box"><span>↑</span><b>Envie suas fotos</b><small>Escolha selfies nítidas e variadas</small><div class="tiny-thumbs"><i></i><i></i><i></i></div></div></div><h3>Faça upload das selfies</h3><p>Envie algumas fotos suas para que a IA aprenda seus traços e crie resultados consistentes.</p></article>
+        <article class="step-card reveal"><div class="step-number">02</div><div class="step-visual style-visual"><div class="style-tile active">Studio <span>✓</span></div><div class="style-tile">Office</div><div class="style-tile">Outdoor</div><div class="style-tile">Creative</div><div class="style-tile">Classic</div></div><h3>Escolha seus estilos</h3><p>Personalize roupas, fundos, iluminação e a vibe que combina com sua marca.</p></article>
+        <article class="step-card reveal"><div class="step-number">03</div><div class="step-visual result-visual"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"><div class="result-badge">✨ Pronto!</div></div><h3>Receba seus retratos</h3><p>Em pouco tempo, tenha opções prontas para LinkedIn, currículo, site e muito mais.</p></article>
+      </div>
+      <a class="secondary-btn" href="#pricing">Começar agora <span>→</span></a>
+    </section>
+
+    <section class="features-section section" id="features">
+      <div class="feature-intro reveal"><div><div class="eyebrow">PERSONALIZE</div><h2>Construa sua marca<br>profissional do seu jeito.</h2><p>Explore combinações para encontrar o visual que representa você.</p></div><div class="feature-note"><b>✦ Dica de estilo</b><p>Escolha fundos e roupas que reforcem o contexto da sua área profissional.</p></div></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">◈</div><h3>Estilos e cenários</h3><p>De estúdio clássico a ambientes modernos, encontre o cenário ideal.</p></article>
+        <article class="feature-card"><div class="feature-icon">▣</div><h3>Looks profissionais</h3><p>Experimente diferentes roupas e estilos sem precisar trocar de outfit.</p></article>
+        <article class="feature-card"><div class="feature-icon">✧</div><h3>Expressões naturais</h3><p>Retratos com iluminação e expressões que parecem espontâneas.</p></article>
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3>Alta resolução</h3><p>Imagens prontas para perfil, apresentações e materiais profissionais.</p></article>
+      </div>
+    </section>
+
+    <section class="pricing-section section" id="pricing">
+      <div class="section-heading reveal"><div class="eyebrow">PREÇOS SIMPLES</div><h2>Headshots profissionais<br>por uma fração do custo.</h2><p>Escolha o pacote que faz sentido para você. Sem mensalidade.</p></div>
+      <div class="pricing-grid">
+        <article class="price-card reveal"><div class="plan-name">Starter</div><div class="price"><sup>R$</sup>29</div><p>Uma ótima maneira de começar.</p><ul><li>40 headshots gerados</li><li>3 estilos selecionados</li><li>Download em alta resolução</li><li>Entrega rápida</li></ul><a href="#" class="outline-btn">Escolher Starter</a></article>
+        <article class="price-card popular reveal"><div class="popular-label">MAIS POPULAR</div><div class="plan-name">Pro</div><div class="price"><sup>R$</sup>39</div><p>Mais opções para sua marca.</p><ul><li>100 headshots gerados</li><li>Mais de 8 estilos</li><li>Download em alta resolução</li><li>Prioridade na geração</li><li>Uso comercial</li></ul><a href="#" class="primary-btn">Escolher Pro <span>→</span></a></article>
+        <article class="price-card reveal"><div class="plan-name">Premium</div><div class="price"><sup>R$</sup>59</div><p>Máxima variedade e liberdade.</p><ul><li>200 headshots gerados</li><li>Todos os estilos</li><li>Download em alta resolução</li><li>Geração prioritária</li><li>Uso comercial</li></ul><a href="#" class="outline-btn">Escolher Premium</a></article>
+      </div>
+      <div class="payment-logos">Pagamento seguro · <b>Visa</b> <b>Mastercard</b> <b>Pix</b> <b>PayPal</b></div>
+    </section>
+
+    <section class="faq-section section" id="faq">
+      <div class="section-heading reveal"><div class="eyebrow">DÚVIDAS?</div><h2>Perguntas frequentes</h2><p>Respondemos o que você precisa saber antes de começar.</p></div>
+      <div class="faq-list">
+        <details><summary>Como funciona a criação dos headshots com IA? <span>+</span></summary><p>Você envia fotos de referência e seleciona estilos. A IA usa suas fotos para gerar retratos em diferentes cenários e looks profissionais.</p></details>
+        <details><summary>Quais fotos devo enviar? <span>+</span></summary><p>Use fotos nítidas, com boa iluminação, rosto visível e ângulos variados. Evite filtros fortes e fotos em grupo.</p></details>
+        <details><summary>Quanto tempo demora para receber? <span>+</span></summary><p>O processamento é automatizado e normalmente leva alguns minutos, dependendo do pacote e da demanda.</p></details>
+        <details><summary>Posso usar os resultados no LinkedIn? <span>+</span></summary><p>Sim. Os retratos podem ser usados em perfis profissionais, currículos, sites e apresentações.</p></details>
+        <details><summary>Os resultados vão parecer comigo? <span>+</span></summary><p>As fotos de referência ajudam a preservar seus traços. A qualidade e consistência dependem também das fotos enviadas.</p></details>
+        <details><summary>Preciso de uma câmera profissional? <span>+</span></summary><p>Não. Fotos de smartphone com luz natural e foco nítido já podem funcionar muito bem.</p></details>
+      </div>
+    </section>
+
+    <section class="promise-section section">
+      <div class="section-heading reveal"><div class="eyebrow">NOSSO COMPROMISSO</div><h2>Não somos perfeitos.<br>Mas queremos entregar o melhor.</h2></div>
+      <div class="promise-grid"><article><span>♡</span><h3>Feito para você</h3><p>Nosso objetivo é criar uma experiência simples que ajude você a se apresentar com confiança.</p></article><article><span>✦</span><h3>Melhoria contínua</h3><p>Aprendemos com feedbacks para evoluir a qualidade e os recursos.</p></article><article><span>✓</span><h3>Transparência</h3><p>Informações claras sobre o processo, os pacotes e o que você recebe.</p></article></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-main"><div class="brand footer-brand">✦ Headshot<span>Studio</span></div><p>Retratos profissionais com tecnologia e criatividade.</p><div class="footer-links"><div><b>Produto</b><a href="#gallery">Galeria</a><a href="#how">Como funciona</a><a href="#pricing">Preços</a></div><div><b>Empresa</b><a href="#features">Sobre</a><a href="#faq">FAQ</a><a href="#">Contato</a></div><div><b>Legal</b><a href="#">Privacidade</a><a href="#">Termos</a><a href="#">Cookies</a></div></div></div><div class="footer-bottom"><span>© 2026 Headshot Studio. Projeto demonstrativo.</span><a href="#top">Voltar ao topo ↑</a></div></footer>
+</body>
+</html>
